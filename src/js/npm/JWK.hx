@@ -1,5 +1,7 @@
 package js.npm;
 
+import js.npm.jwk.*;
+
 @:jsRequire("node-jose", "JWK")
 extern class JWK {
   /**
