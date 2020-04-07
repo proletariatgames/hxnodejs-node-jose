@@ -7,5 +7,5 @@ extern class JWK {
   /**
   * To import a JWK-set as a keystore
   */
-  static function asKeyStore(ks:Dynamic):js.lib.Promise<jwk.KeyStore>;
+  static function asKeyStore(ks:Dynamic):js.lib.Promise<KeyStore>;
 }
