@@ -1,6 +1,7 @@
 package js.npm;
 
 import js.npm.jwk.*;
+import js.npm.jws.*;
 
 @:jsRequire("node-jose", "JWS")
 extern class JWS {
