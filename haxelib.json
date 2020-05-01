@@ -6,7 +6,7 @@
   "tags": ["nodejs", "hxnodejs", "node-jose"],
   "description": "Haxe/hxnodejs externs for the node-jose npm library",
   "releasenote": "Initial release",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": ["Proletariat", "ProletariatDev1"],
   "dependencies": {
     "hxnodejs": ""
