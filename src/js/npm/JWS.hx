@@ -8,5 +8,5 @@ extern class JWS {
   /**
   * Using a keystore.
   */
-  function createVerify(input: js.npm.jwk.KeyStore):Verifier;
+  static function createVerify(input: js.npm.jwk.KeyStore):Verifier;
 }
