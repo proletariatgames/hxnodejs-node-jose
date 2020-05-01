@@ -1,5 +1,6 @@
 package js.npm;
 
+import js.npm.JWK;
 import js.npm.jwk.*;
 import js.npm.jws.*;
 
