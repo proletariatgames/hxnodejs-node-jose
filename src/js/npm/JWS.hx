@@ -1,6 +1,5 @@
 package js.npm;
 
-import js.npm.JWK;
 import js.npm.jwk.*;
 import js.npm.jws.*;
 
@@ -9,5 +8,5 @@ extern class JWS {
   /**
   * Using a keystore.
   */
-  function createVerify(input: JWK.KeyStore):Verifier;
+  function createVerify(input: js.npm.jwk.KeyStore):Verifier;
 }
